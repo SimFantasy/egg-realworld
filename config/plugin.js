@@ -4,7 +4,7 @@ exports.mongoose = {
 }
 
 exports.cros = {
-	enable: false,
+	enable: true,
 	package: 'egg-cors'
 }
 
