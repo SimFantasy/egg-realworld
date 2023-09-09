@@ -1,0 +1,27 @@
+{
+	"name": "egg-realworld",
+	"version": "1.0.0",
+	"description": "",
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"main": "index.js",
+	"scripts": {
+		"dev": "egg-bin dev",
+		"debug": "egg-bin debug",
+		"start": "egg-scripts start --daemon --title=egg-server-realworld",
+		"stop": "egg-scripts stop --title=egg-server-realworld"
+	},
+	"dependencies": {
+		"egg": "^3.17.4",
+		"egg-cors": "^2.2.3",
+		"egg-mongoose": "^4.0.0",
+		"egg-scripts": "^2.17.0",
+		"joi": "^17.10.1",
+		"jsonwebtoken": "^9.0.2",
+		"slugify": "^1.6.6"
+	},
+	"devDependencies": {
+		"egg-bin": "^6.4.2"
+	}
+}
